@@ -8,11 +8,11 @@ from setuptools import setup
 basepath = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, os.path.dirname(basepath))
 
-hiyapycoversion='0.4.16'
+hiyapycoversion='0.4.160'
 
 long_description = open('README.rst').read()
 
-installrequires = ['PyYAML', 'Jinja2>1,<3',]
+installrequires = ['PyYAML', 'Jinja2',]
 
 try:
     from collections import OrderedDict
